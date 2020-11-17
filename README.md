@@ -1,5 +1,5 @@
 ## Hello there, I am Mohamed. I will share and archive my solutions to [Codeforces] problems.
-#### The languages used is mainly C++.
+#### The language used is mainly C++.
 
 
 
