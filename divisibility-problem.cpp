@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-	int t, moves = 0, x;
+	int t, x;
 	cin >> t;
 	vector<int> a;
 	vector<int> b;
@@ -16,14 +16,13 @@ int main(){
 			b.push_back(x);
 		}
 	}
-	
 	for (int i = 0; i < t; ++i){
-		while (a[i]%b[i]!=0){
-			a[i] += 1;
-			moves += 1;
+		if (a[i]%b[i]==0){
+			cout << 0 << endl;
 		}
-		cout << moves << endl;
-		moves = 0;
+		else{
+			cout << b[i]-a[i]%b[i] << endl;
+		}
 	}
 	return 0;
 }
