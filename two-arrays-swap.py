@@ -1,18 +1,18 @@
-t = int(input())
-sol = []
-
-for i in range(t):
+x = []
+for i in range(int(input())):
     n, k = list(map(int, input().split()))
     a = list(map(int, input().split()))
     b = list(map(int, input().split()))
 
-    if min(a) <= max(b):
-        for i in range(k):
-            min_a = min(a) 
-            a[a.index(min(a))] = max(b)
-            b[b.index(max(b))] = min_a
+    while k != 0 and min(a) < max(b):
+        min_a = min(a)
+        a[a.index(min_a)] = max(b)
+        b[b.index(max(b))] = min_a
+        k -= 1
 
-    sol.append(sum(a))
+    x.append(sum(a))
 
-for x in sol:
-    print(x)
+for e in x:
+    print(e)
+        
+
