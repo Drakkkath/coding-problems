@@ -1,5 +1,5 @@
-## About
-#### I will be documenting my solutions to [Codeforces] problems in C++ and Python.
+# About
+ I will be documenting my solutions to [Codeforces] problems in C++, Python and JavaScript.
 
 
 
