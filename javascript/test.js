@@ -1,3 +1,2 @@
-x = readline();
+x = readline().split(" ");
 
-print(`Hello ${x}!`);
