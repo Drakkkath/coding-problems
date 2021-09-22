@@ -1,2 +1,0 @@
-x = readline().split(" ");
-
