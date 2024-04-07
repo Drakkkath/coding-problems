@@ -1,7 +1,2 @@
-# About
- I will be documenting my solutions to [Codeforces] problems in C++, Python and JavaScript.
-
-
-
-
-[Codeforces]: http://codeforces.com/
+## About
+An archive of my solutions to [Codeforces](https://codeforces.com/) problems in C++, Python and JavaScript.
